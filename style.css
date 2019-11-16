@@ -1,0 +1,79 @@
+body{
+    margin:0 auto;
+}
+.gametitle{
+    display:block;
+    margin-left:600px;
+}
+.game{
+    position:relative;
+}
+.start{
+    position:absolute;
+    font-size:20px;
+    left:550px;
+    top:250px;
+    width:350px;
+    height:80px;
+    border-radius:5px;
+    background-color:#FFCC00;
+}
+img{
+    width:1000px;
+    height:600px;
+    margin-left:200px;
+    margin-bottom:80px;
+    
+}
+img#enemy_image{
+    width:400px;
+    height:400px;
+    display:block;
+    position:absolute;
+    top:80px;
+    left:-120px;
+}
+.status_container{
+    width:300px;
+    height:180px;
+    position:absolute;
+    top:0; 
+    right:50px;
+    border:solid #FFCC00;
+    border-radius:10px;
+}
+.history_container{
+    width:300px;
+    height:500px;
+    position:absolute;
+    top:200px;
+    right:50px;
+    border:solid #FFCC00;
+    border-radius:10px;
+    overflow:scroll;
+}
+.enemy{
+    display:block;
+    margin-left:160px;
+}
+.display_container{
+    position:absolute;
+    top:0px;
+    left:350px;
+    width:550px;
+    height:500px;
+    border:solid #000000;
+}
+.button{
+    margin-bottom:100px;
+    position:absolute;
+    top:530px;
+    left:350px;
+}
+input#select_button{
+    width:200px;
+    height:60px;
+    padding:10px 20px;
+    font-size:1.2em;
+    background-color:#FFCC00;
+}
